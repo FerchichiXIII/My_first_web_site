@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("https://wallpapercave.com/wp/QeqHCrT.jpg");
+    background-attachment: fixed;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+footer, blockquote{
+    flex-direction: column;
+}
+
+article{
+
+    flex: 2;
+    overflow-y: auto;
+    text-align: center;
+}
+.back{
+    background-color: whitesmoke;
+}
+aside{
+
+    flex: 1;
+    overflow-y: auto;
+    background-color: transparent;
+}
+li {
+list-style: none;
+display: inline-block;
+margin-right: 20px;
+}
+li:hover{
+    font-weight: bold;
+}
+li a{
+text-decoration: none;
+font-size: 14px;
+padding:10px 10px;
+text-transform: uppercase;
+color: white;
+font-family: "Abril Fatface",sans-serif;
+}
+p {
+    color: #fff;
+}
+h1{
+    color: goldenrod;
+}
+h2{
+    color:rgb(124, 18, 18)
+}
+strong {
+    color: darkblue;
+}
+footer{
+    color: #fff;
+}
+footer a{
+    color: rgb(194, 12, 12);
+}
+p{
+    background-color:black;
+}
+
+header .logo{
+    background-image: url("pngegg.png");
+    background-repeat: no-repeat;
+      background-size: cover;
+      padding: 1px ;
+      margin: 0px;
+      width: 150px;
+      height: 50px;
+}
+
+iframe{
+    border: 0px;
+}
